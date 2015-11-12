@@ -8,20 +8,20 @@
  */
 
 // Predefine the variables below in order to alter and enable specific features.
-$inuit-pack-gutter:         $inuit-base-spacing-unit !default;
-$inuit-pack-gutter--tiny:     quarter($inuit-pack-gutter) !default;
-$inuit-pack-gutter--small:      halve($inuit-pack-gutter) !default;
-$inuit-pack-gutter--large:     double($inuit-pack-gutter) !default;
-$inuit-pack-gutter--huge:   quadruple($inuit-pack-gutter) !default;
+$o-pack-gutter:         $inuit-base-spacing-unit !default;
+$o-pack-gutter--tiny:     quarter($o-pack-gutter) !default;
+$o-pack-gutter--small:      halve($o-pack-gutter) !default;
+$o-pack-gutter--large:     double($o-pack-gutter) !default;
+$o-pack-gutter--huge:   quadruple($o-pack-gutter) !default;
 
-$inuit-enable-pack--auto:   false !default;
-$inuit-enable-pack--tiny:   false !default;
-$inuit-enable-pack--small:  false !default;
-$inuit-enable-pack--large:  false !default;
-$inuit-enable-pack--huge:   false !default;
-$inuit-enable-pack--rev:    false !default;
-$inuit-enable-pack--middle: false !default;
-$inuit-enable-pack--bottom: false !default;
+$o-pack--auto:   false !default;
+$o-pack--tiny:   false !default;
+$o-pack--small:  false !default;
+$o-pack--large:  false !default;
+$o-pack--huge:   false !default;
+$o-pack--rev:    false !default;
+$o-pack--middle: false !default;
+$o-pack--bottom: false !default;
 
 
 
@@ -43,7 +43,7 @@ $inuit-enable-pack--bottom: false !default;
     .o-pack__item {
         display: table-cell;
 
-        @if ($inuit-enable-pack--middle == true) {
+        @if ($o-pack--middle == true) {
 
             /**
              * All items are aligned to the middles of each other.
@@ -55,7 +55,7 @@ $inuit-enable-pack--bottom: false !default;
 
         }
 
-        @if ($inuit-enable-pack--bottom == true) {
+        @if ($o-pack--bottom == true) {
 
             /**
              * All items are aligned to the bottoms of each other.
@@ -73,7 +73,7 @@ $inuit-enable-pack--bottom: false !default;
 
 
 
-@if ($inuit-enable-pack--auto == true) {
+@if ($o-pack--auto == true) {
 
     /**
      * Cause children to pack up into available space, but not equally sized.
@@ -89,50 +89,50 @@ $inuit-enable-pack--bottom: false !default;
 
 
 
-@if ($inuit-enable-pack--tiny == true) {
+@if ($o-pack--tiny == true) {
 
     /**
      * Tiny gutters between items.
      */
 
     .o-pack--tiny {
-        border-spacing: $inuit-pack-gutter--tiny;
+        border-spacing: $o-pack-gutter--tiny;
     }
 
 }
 
-@if ($inuit-enable-pack--small == true) {
+@if ($o-pack--small == true) {
 
     /**
      * Small gutters between items.
      */
 
     .o-pack--small {
-        border-spacing: $inuit-pack-gutter--small;
+        border-spacing: $o-pack-gutter--small;
     }
 
 }
 
-@if ($inuit-enable-pack--large == true) {
+@if ($o-pack--large == true) {
 
     /**
      * Large gutters between items.
      */
 
     .o-pack--large {
-        border-spacing: $inuit-pack-gutter--large;
+        border-spacing: $o-pack-gutter--large;
     }
 
 }
 
-@if ($inuit-enable-pack--huge == true) {
+@if ($o-pack--huge == true) {
 
     /**
      * Huge gutters between items.
      */
 
     .o-pack--huge {
-        border-spacing: $inuit-pack-gutter--huge;
+        border-spacing: $o-pack-gutter--huge;
     }
 
 }
@@ -141,7 +141,7 @@ $inuit-enable-pack--bottom: false !default;
 
 
 
-@if ($inuit-enable-pack--rev == true) {
+@if ($o-pack--rev == true) {
 
     /**
      * Reversed order packs.
