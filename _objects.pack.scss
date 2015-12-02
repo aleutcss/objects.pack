@@ -10,7 +10,7 @@
 // Predefine the variables below in order to alter and enable specific features.
 $inuit-pack-namespace:      $inuit-namespace !default;
 
-$inuit-pack-gutter:         $inuit-base-spacing-unit !default;
+$inuit-pack-gutter:         $spacing !default;
 $inuit-pack-gutter--tiny:     quarter($inuit-pack-gutter) !default;
 $inuit-pack-gutter--small:      halve($inuit-pack-gutter) !default;
 $inuit-pack-gutter--large:     double($inuit-pack-gutter) !default;
