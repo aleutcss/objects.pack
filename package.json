@@ -1,5 +1,5 @@
 {
-  "name": "aleut-pack",
+  "name": "@aleut/aleut-pack",
   "version": "0.2.0",
   "description": "A simple layout tool in the aleutcss framework (based on Harry Roberts inuitcss framework)",
   "main": "_objects.pack.scss",
