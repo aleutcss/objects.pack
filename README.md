@@ -1,14 +1,14 @@
 # Pack
 
-inuitcss’ Pack object simply causes any number of elements pack up horizontally
+aleutcss’ Pack object simply causes any number of elements pack up horizontally
 to automatically fill an equal, fluid width of their parent.
 
 ## Dependencies
 
-inuitcss’ Pack object depends on two other inuitcss modules:
+aleutcss’ Pack object depends on two other aleutcss modules:
 
-* [settings.defaults](https://github.com/inuitcss/settings.defaults)
-* [tools.functions](https://github.com/inuitcss/tools.functions)
+* [settings.defaults](https://github.com/aleutcss/settings.defaults)
+* [tools.functions](https://github.com/aleutcss/tools.functions)
 
 If you install the Pack object using Bower, you will get these dependencies at
 the same time. If not using Bower, please be sure to install and `@import` these
@@ -33,7 +33,7 @@ Once installed, `@import` into your project in its Objects layer:
 
 ### Install as a Git Submodule
 
-    $ git submodule add git@github.com:inuitcss/objects.pack.git
+    $ git submodule add git@github.com:aleutcss/objects.pack.git
 
 Once installed, `@import` into your project in its Objects layer:
 
