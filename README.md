@@ -27,7 +27,7 @@ module via a Git Submodule, or copy and paste.
 
 Once installed, `@import` into your project in its Objects layer:
 
-    @import "bower_components/inuit-pack/objects.pack";
+    @import "node_modules/inuit-pack/objects.pack";
 
 ### Install as a Git Submodule
 
