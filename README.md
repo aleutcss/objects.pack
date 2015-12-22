@@ -10,22 +10,20 @@ aleutcss’ Pack object depends on two other aleutcss modules:
 * [settings.defaults](https://github.com/aleutcss/settings.defaults)
 * [tools.functions](https://github.com/aleutcss/tools.functions)
 
-If you install the Pack object using Bower, you will get these dependencies at
-the same time. If not using Bower, please be sure to install and `@import` these
+If you install the Pack object using NPM, you will get these dependencies at
+the same time. If not using NPM, please be sure to install and `@import` these
 dependencies in the relevant way.
 
 ## Installation
 
-The recommended installation method is Bower, but you can install the Pack
+The recommended installation method is NPM, but you can install the Pack
 module via a Git Submodule, or copy and paste.
 
-### Install using Bower:
-
-    $ bower install --save inuit-pack
+### 
 
 ### Install using npm:
 
-    $ npm install --save inuit-pack
+    $ npm install --save-dev aleut-pack
 
 Once installed, `@import` into your project in its Objects layer:
 
