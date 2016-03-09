@@ -27,6 +27,8 @@ Basic usage of the Pack object uses the required classes:
 </div>
 ```
 
+![Example of o-pack](https://github.com/aleutcss/Aleut/tree/gh-pages/public/img/o-pack.png)
+
 The only valid children of the `.o-pack` node are `.o-pack__item`s.
 
 ## Options
@@ -55,6 +57,8 @@ For example:
         </div>
     </div>
 ```
+
+![Example of o-pack options](https://github.com/aleutcss/Aleut/tree/gh-pages/public/img/o-pack-options.png)
 
 ## Dependencies
 
