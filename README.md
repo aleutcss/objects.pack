@@ -6,7 +6,7 @@ aleutcss’ Pack object simply causes any number of elements pack up horizontall
 ## Install using npm:
 
 ```ssh
-    $ npm install --save-dev aleut-pack
+    $ npm install --save-dev @aleut/objects.pack
 ```
 
 ## Usage
